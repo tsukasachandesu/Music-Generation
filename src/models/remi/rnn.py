@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from torch import nn
 import pytorch_lightning as pl
-from deepnote import Constants
+from deepmusic import Constants
 from tqdm.notebook import tqdm
 
 from src.modules import RemiEmbedding, RemiHead, VanillaRNN, sampling
