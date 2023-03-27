@@ -5,7 +5,7 @@ import torch
 from tqdm.notebook import tqdm
 from torch.utils.data import Dataset
 from joblib import Parallel, delayed
-from deepnote import MusicRepr, Constants
+from deepmusic import MusicRepr, Constants
 
 def get_track(file_path, const, window, instruments, mode):
     try:
