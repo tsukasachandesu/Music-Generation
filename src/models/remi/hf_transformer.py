@@ -3,7 +3,7 @@ import torch
 from tqdm.notebook import tqdm
 from torch import nn
 import pytorch_lightning as pl
-from deepnote import Constants, MusicRepr
+from deepmusic import Constants, MusicRepr
 from transformers import AutoModelForCausalLM
 
 from src.modules import RemiEmbedding, RemiHead, sampling, VanillaTransformer
