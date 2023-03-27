@@ -1,5 +1,5 @@
 from typing import List, Dict
-from deepnote import Constants
+from deepmusic import Constants
 
 ATTRIBUTES = ['ttype' , 'barbeat', 'tempo', 'chord', 'inst_family', 'pitch', 'duration', 'velocity']
 EMB_SIZES = {
